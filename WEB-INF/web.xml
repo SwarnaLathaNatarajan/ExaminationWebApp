@@ -1,0 +1,27 @@
+<web-app>
+	<servlet>
+			<servlet-name>enroll</servlet-name>
+		<servlet-class>registration_controller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>enroll</servlet-name>
+		<url-pattern>/myenroll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>exam</servlet-name>
+		<servlet-class>exam_controller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exam</servlet-name>
+		<url-pattern>/my_exam_controller</url-pattern>
+	</servlet-mapping>
+	<servlet>
+			<servlet-name>result</servlet-name>
+		<servlet-class>result_controller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>result</servlet-name>
+		<url-pattern>/my_result</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

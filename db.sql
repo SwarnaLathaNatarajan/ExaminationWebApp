@@ -1,0 +1,2 @@
+insert into food values('Garlic Bread Sticks','Starter','veg','The endearing tang of garlic in breadstics baked to perfection.','images/vs1.jpg',70);
+insert into food values('Stuffed Garlic Bread Sticks','Starter','veg','TFreshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns &jalapenos.','images/vs2.jpg',120);
